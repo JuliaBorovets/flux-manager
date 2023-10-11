@@ -1,0 +1,13 @@
+service:
+  type: NodePort
+  port: 8888
+  annotations: {}
+
+imagePullSecrets: ""
+
+image:
+  pullPolicy: IfNotPresent
+  name: "flux-manager:0.0.1"
+
+flux-manager:
+  labels: {}
