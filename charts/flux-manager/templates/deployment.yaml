@@ -22,6 +22,7 @@ spec:
       imagePullSecrets:
         {{- toYaml . | nindent 8 }}
       {{- end }}
+      restartPolicy: Always
       containers:
         - name: {{ .Chart.Name }}
           image: {{ .Values.image.name }}
