@@ -2,5 +2,5 @@ apiVersion: v2
 name: flux-manager
 description: A Helm chart for flux manager
 type: application
-version: 1.0.3
-appVersion: "1.0.3"
+version: 1.0.4
+appVersion: "1.0.4"
